@@ -8,6 +8,73 @@
   </head>
   <body>
 
+    <main>
+
+      <!-- ESERCIZIO 1: PAROLA PALINDROMA -->
+      <section id="palindroma">
+        <h2>Verifica se una parola è Palindroma</h2>
+
+        <!-- Input -->
+        <div class="input">
+          <label>Parola</label>
+          <input id="input-parola" type="text" placeholder="Inserisci una parola">
+          <button id="verifica" type="button" name="verifica">Verifica</button>
+        </div>
+        <!-- Fine Input -->
+
+        <!-- Output -->
+        <div class="output">
+          <p id="parola-inserita"></p>
+          <p id="parola-rovesciata"></p>
+          <p id="validazione"></p>
+        </div>
+        <!-- Fine Output -->
+      </section>
+      <!-- FINE ESERCIZIO 1: PAROLA PALINDROMA -->
+
+      <!-- ESERCIZIO 2: PARI E DISPARI -->
+      <section id="pari-dispari">
+        <h2>Gioco 'Pari e Dispari'</h2>
+
+        <!-- Input -->
+        <div class="input">
+
+          <!-- opzioni pari o dispari -->
+          <div class="opzioni">
+            <label>Scegli:</label>
+            <button id="pari" type="button">Pari</button>
+            <button id="dispari" type="button">Dispari</button>
+          </div>
+
+          <!-- scelta effettuata -->
+          <div class="scelta">
+            <label>Hai scelto</label>
+            <input id="scelta" type="text" value="" placeholder="La tua scelta">
+          </div>
+
+          <!-- inserisci un numero -->
+          <div class="numero">
+            <label>Numero</label>
+            <input id="input-numero" type="number" placeholder="Inserisci un numero da 1 a 5">
+            <button id="gioca" type="button">Gioca</button>
+          </div>
+        </div>
+        <!-- Fine Input -->
+
+        <!-- Output -->
+        <div class="output">
+          <p id="errore"></p>
+          <p id="numero-utente"></p>
+          <p id="numero-bot"></p>
+          <p id="somma"></p>
+          <p id="vincitore"></p>
+        </div>
+        <!-- Fine Output -->
+      </section>
+      <!-- FINE ESERCIZIO 2: PARI E DISPARI -->
+    </main>
+
+
     <!-- link javascript -->
     <script type="text/javascript" src="js/script.js">
     </script>

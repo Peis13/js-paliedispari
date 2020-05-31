@@ -1,0 +1,16 @@
+#pari-dispari .input {
+  float: left;
+  margin-right: 50px;
+}
+
+.input > * {
+  margin-bottom: 20px;
+}
+
+#scelta {
+  width: 80px;
+}
+
+#input-numero {
+  width: 200px;
+}
